@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext);
+body{
+	background: black;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.Pc_block{
+	font-family: 'Roboto', sans-serif;
+  	display: inline-block;
+  	position: relative;
+    border: 2px solid #ff163a;
+    text-align: center;
+    font-size: 35px; 
+    padding: 10px 20px;
+    margin: 20px;
+    margin-left: 26%;
+    margin-top: 70%;
+    cursor: pointer;
+    color: #fff !important;
+}
+.One_video {
+  position: absolute;
+  width: auto;
+  height: auto;
+ /* min-width: 100%;*/ 
+  min-height: 100%; 
+  /*left: 0;*/
+  top: 0;
+  right: 0;
+  /*bottom: 0;
+  margin: auto;*/
+  z-index: -1;
+}
+.Two_video {
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%; 
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: -1;
+
+}
+.and_video{
+	border: 1px solid white;
+	height:100vh;
+}
